@@ -1,0 +1,22 @@
+<MLG.xml>
+
+	<maxMLGLevel>420</maxMLGLevel>
+	<stayTime>5.0></stayTime> <!-- How long the Elements stay, use a FLOAT HERE (Komma) --->
+	<!--
+	This is the maxiumum MLG Level. E.g one Kill is Level 2,
+	then it goes up and will not go higher than this maxLevel.
+	Level 0 : Off
+    Level 1: Few texts no Images no Animations No Sounds
+    Level 2: Few texts few Images few Animations Sound On
+    Level 3 : More Texs more images more Animations Sound On
+    Level 4 : Lots texts lots Images lots Animations Sound On
+    Level 5: shitload of texts shitload of everything
+    Level 420 : EXTREME OVERLOAD OF EVERYTHING --->
+	
+	<Swag>True</Swag>  <!-- True/False for the little "secret" -->
+	<noobAlert>True</noobAlert> <!-- True/False for Noobalert if you suck ballz -->
+	<alertSpeed>1.0</alertSpeed> <!-- Multiplier to increase or decrease the speed in which it comes up-->
+	<alertStay>4.5</alertStay> <!-- How long the alert stays on the screen in seconds -->
+</MLG.xml>
+
+
