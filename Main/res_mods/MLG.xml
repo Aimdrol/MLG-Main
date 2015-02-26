@@ -1,7 +1,49 @@
 <MLG.xml>
-
+	<!-- Config File for the MLG mod, default values are written behind | -->
+	<Swag> <!-- settings for the Swag animation -->
+		<Enabled>True</Enabled> <!-- | True -->
+		<Chance>0.005</Chance> <!-- chance for it to be shown when the script checks, between 0 and 1 | 0.005 -->
+		<!-- the following 2 settings controls how long it takes until the script checks again after the last check
+			the delay is FixedInteval plus and random number from 0 to RandomInterval-->
+		<FixedInterval>45</FixedInterval> <!-- in seconds | 45-->
+		<RandomInterval>5</RandomInterval> <!-- in seconds | 5-->
+	</Swag>
+	<Sound> <!-- which sounds should be played, True/False -->
+		<Kills>
+			<TankType>
+				<Arty> <!-- played each time a arty gets killed -->
+					<Enemy>True</Enemy> <!-- | True -->
+					<Ally>False</Ally> <!-- | False -->
+				</Arty>
+			</TankType>
+			<Count> <!-- played when the player gets the corresponding amount of kills -->
+				<One>True</One>
+				<Two>True</Two>
+				<Three>True</Three>
+				<Five>True</Five>
+				<Six>True</Six>
+				<Eight>True</Eight>
+				<Ten>True</Ten>
+				<Twelve>True</Twelve>
+				<Thirteen>True</Thirteen>
+				<Fourteen>True</Fourteen>
+			</Count>
+			<Generic>True</Generic> <!-- default sound for a kill, does not get played instead of disabled sounds and only if
+										the criteria of every other enabled kill sound are not fullfilled | True -->
+			<Ramming>True</Ramming> <!-- generic ramming kill sound | True -->
+			<Kamikaze>True</Kamikaze> <!-- Kamikaze -->
+		</Kills>
+	</Sound>
+	<Sanic> <!-- sanic image & looping sound when goinging faster than a certain speed limit -->
+		<Enabled>True</Enabled>
+		<ShowImage>True</ShowImage>
+		<PlaySound>True</PlaySound>
+		<SpeedLimit>69</SpeedLimit> <!-- in km/h -->
+		<Height>556</Height>
+		<Width>636</Width>
+	</Sanic>
 	<maxMLGLevel>420</maxMLGLevel>
-	<stayTime>5.0></stayTime> <!-- How long the Elements stay, use a FLOAT HERE (Komma) --->
+	<stayTime>5.0></stayTime> <!-- How long the Elements stay, use a FLOAT HERE (Komma) -->
 	<!--
 	This is the maxiumum MLG Level. E.g one Kill is Level 2,
 	then it goes up and will not go higher than this maxLevel.
@@ -11,9 +53,8 @@
     Level 3 : More Texs more images more Animations Sound On
     Level 4 : Lots texts lots Images lots Animations Sound On
     Level 5: shitload of texts shitload of everything
-    Level 420 : EXTREME OVERLOAD OF EVERYTHING --->
+    Level 420 : EXTREME OVERLOAD OF EVERYTHING -->
 	
-	<Swag>True</Swag>  <!-- True/False for the little "secret" -->
 	<noobAlert>True</noobAlert> <!-- True/False for Noobalert if you suck ballz -->
 	<alertSpeed>1.0</alertSpeed> <!-- Multiplier to increase or decrease the speed in which it comes up-->
 	<alertStay>4.5</alertStay> <!-- How long the alert stays on the screen in seconds -->
