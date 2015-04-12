@@ -17,16 +17,16 @@
 				</Arty>
 			</TankType>
 			<Count> <!-- played when the player gets the corresponding amount of kills -->
-				<One>True</One>
-				<Two>True</Two>
-				<Three>True</Three>
-				<Five>True</Five>
-				<Six>True</Six>
-				<Eight>True</Eight>
-				<Ten>True</Ten>
-				<Twelve>True</Twelve>
-				<Thirteen>True</Thirteen>
-				<Fourteen>True</Fourteen>
+				<One>True</One> <!-- | True -->
+				<Two>True</Two> <!-- | True -->
+				<Three>True</Three> <!-- | True -->
+				<Five>True</Five> <!-- | True -->
+				<Six>True</Six> <!-- | True -->
+				<Eight>True</Eight> <!-- | True -->
+				<Ten>True</Ten> <!-- | True -->
+				<Twelve>True</Twelve> <!-- | True -->
+				<Thirteen>True</Thirteen> <!-- | True -->
+				<Fourteen>True</Fourteen> <!-- | True -->
 			</Count>
 			<Generic>True</Generic> <!-- default sound for a kill, does not get played instead of disabled sounds and only if
 										the criteria of every other enabled kill sound are not fullfilled | True -->
@@ -35,12 +35,13 @@
 		</Kills>
 	</Sound>
 	<Sanic> <!-- sanic image & looping sound when goinging faster than a certain speed limit -->
-		<Enabled>True</Enabled>
-		<ShowImage>True</ShowImage>
-		<PlaySound>True</PlaySound>
+		<Enabled>True</Enabled> <!-- | True -->
+		<ShowImage>True</ShowImage> <!-- | True -->
+		<PlaySound>True</PlaySound> <!-- | True -->
+		<BleedingEarsMode>True</BleedingEarsMode> <!-- loud sanic theme, may cause your ears to bleed, set this to false to avoid it | True -->
 		<SpeedLimit>69</SpeedLimit> <!-- in km/h -->
-		<Height>556</Height>
-		<Width>636</Width>
+		<Height>556</Height> <!-- | 556 -->
+		<Width>636</Width> <!-- | 636 -->
 	</Sanic>
 	<maxMLGLevel>420</maxMLGLevel>
 	<stayTime>5.0></stayTime> <!-- How long the Elements stay, use a FLOAT HERE (Komma) -->
