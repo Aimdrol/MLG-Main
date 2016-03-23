@@ -153,6 +153,9 @@
 		<project>
           <name>MLG.bnk</name>
         </project>
+		<project>
+          <name>MLG_Sixth_Sense.bnk</name>
+        </project>
       </voice_soundbanks>
       <SFX_soundbanks_loadonce>
         <project>
