@@ -9,6 +9,7 @@
 		<RandomInterval>5</RandomInterval> <!-- in seconds | 5-->
 	</Swag>
 	<Sound> <!-- which sounds should be played, True/False -->
+		<ChatCommands>True</ChatCommands>
 		<Kills>
 			<TankType>
 				<Arty> <!-- played each time a arty gets killed -->
