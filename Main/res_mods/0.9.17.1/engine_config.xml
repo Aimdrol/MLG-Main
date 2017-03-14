@@ -155,19 +155,12 @@
     <WWISE_active_profile>WWISE_adv_profile</WWISE_active_profile>
     <WWISE_adv_profile>
       <memoryManager>
-        <defaultPool>	12	</defaultPool>
-        <lowEnginePool>	10	</lowEnginePool>
-        <preparedPool>	106	</preparedPool>
-        <streamingPool>	2	</streamingPool>
-        <IOPoolSize>	4	</IOPoolSize>
+        <defaultPool>	64	</defaultPool>
+        <lowEnginePool>	48	</lowEnginePool>
+        <preparedPool>	512	</preparedPool>
+        <streamingPool>	6	</streamingPool>
+        <IOPoolSize>	24	</IOPoolSize>
       </memoryManager>
-      <editorMemoryManager>
-        <defaultPool>	20	</defaultPool>
-        <lowEnginePool>	20	</lowEnginePool>
-        <preparedPool>	106	</preparedPool>
-        <streamingPool>	4	</streamingPool>
-        <IOPoolSize>	6	</IOPoolSize>
-      </editorMemoryManager>
       <soundRender>
         <use_config>	false	</use_config>
         <HDR_lower_threshold>	-50	</HDR_lower_threshold>
@@ -179,9 +172,6 @@
         </project>
 		<project>
           <name>MLG.bnk</name>
-        </project>
-		<project>
-          <name>MLG_Sixth_Sense.bnk</name>
         </project>
       </voice_soundbanks>
       <SFX_soundbanks_loadonce>
