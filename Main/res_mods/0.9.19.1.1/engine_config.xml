@@ -155,11 +155,11 @@
     <WWISE_active_profile>WWISE_adv_profile</WWISE_active_profile>
     <WWISE_adv_profile>
       <memoryManager>
-        <defaultPool>	64	</defaultPool>
-        <lowEnginePool>	48	</lowEnginePool>
-        <preparedPool>	512	</preparedPool>
-        <streamingPool>	6	</streamingPool>
-        <IOPoolSize>	24	</IOPoolSize>
+        <defaultPool>	32	</defaultPool>
+        <lowEnginePool>	24	</lowEnginePool>
+        <preparedPool>	256	</preparedPool>
+        <streamingPool>	8	</streamingPool>
+        <IOPoolSize>	12	</IOPoolSize>
       </memoryManager>
       <soundRender>
         <use_config>	false	</use_config>
@@ -237,6 +237,12 @@
         </project>
         <project>
           <name>gui.bnk</name>
+        </project>
+        <project>
+          <name>gui_ranked_battles.bnk</name>
+        </project>
+        <project>
+          <name>gui_ranked_battles.pck</name>
         </project>
         <project>
           <name>ExternalMusicSources.bnk</name>
