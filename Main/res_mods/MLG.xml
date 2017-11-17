@@ -45,7 +45,7 @@
 		<Width>636</Width> <!-- | 636 -->
 	</Sanic>
 	<maxMLGLevel>420</maxMLGLevel>
-	<stayTime>5.0></stayTime> <!-- How long the Elements stay, use a FLOAT HERE (Komma) -->
+	<stayTime>5.0</stayTime> <!-- How long the Elements stay, use a FLOAT HERE (Komma) -->
 	<!--
 	This is the maxiumum MLG Level. E.g one Kill is Level 2,
 	then it goes up and will not go higher than this maxLevel.
