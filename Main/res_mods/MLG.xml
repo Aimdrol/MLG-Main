@@ -60,6 +60,7 @@
 	<noobAlert>True</noobAlert> <!-- True/False for Noobalert if you suck ballz -->
 	<alertSpeed>1.0</alertSpeed> <!-- Multiplier to increase or decrease the speed in which it comes up-->
 	<alertStay>4.5</alertStay> <!-- How long the alert stays on the screen in seconds -->
+	<CounterStrike>True</CounterStrike> <!-- counterstrike messages when capping/getting capped -->
 </MLG.xml>
 
 
