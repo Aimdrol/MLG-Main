@@ -86,6 +86,7 @@
       <key>GRAVE</key>
     </combination>
     <enableEndStopApp>	false	</enableEndStopApp>
+    <benchmarkStartTime>15.0</benchmarkStartTime>
   </debugKeys>
   <entities>
     <disablePreloads>	false	</disablePreloads>
@@ -177,11 +178,11 @@
     <WWISE_emergency_profile>WWISE_low_profile</WWISE_emergency_profile>
     <WWISE_adv_profile>
       <memoryManager>
-        <defaultPool>	64	</defaultPool>
-        <lowEnginePool>	48	</lowEnginePool>
-        <preparedPool>	512	</preparedPool>
-        <streamingPool>	16	</streamingPool>
-        <IOPoolSize>	24	</IOPoolSize>
+        <defaultPool>	52	</defaultPool>
+        <lowEnginePool>	40	</lowEnginePool>
+        <streamingPool>	8	</streamingPool>
+        <IOPoolSize>	16	</IOPoolSize>
+        <IOGranularity>	64	</IOGranularity>
       </memoryManager>
       <soundRender>
         <use_config>	false	</use_config>
@@ -291,6 +292,12 @@
         </project>
         <project>
           <name>gui_hangar.bnk</name>
+        </project>
+        <project>
+          <name>gui_blueprints.bnk</name>
+        </project>
+        <project>
+          <name>researches.bnk</name>
         </project>
       </SFX_soundbanks_hangar>
       <SFX_soundbanks_login>
