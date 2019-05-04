@@ -540,7 +540,8 @@
     <logToMessageLogger>	false	</logToMessageLogger>
     <loggerID>	111	</loggerID>
     <file>game.log<enabled>	true	</enabled><openMode>a</openMode><maxSizeKB>	2048	</maxSizeKB><trimToKB>	512	</trimToKB><showTime>	true	</showTime><disableBuffering>	false	</disableBuffering><messageLength>	8192	</messageLength></file>
-    <file>python.log<enabled>	true	</enabled><source>SCRIPT</source><openMode>a</openMode><maxSizeKB>	2048	</maxSizeKB><trimToKB>	512	</trimToKB><showTime>	true	</showTime><disableBuffering>	false	</disableBuffering><messageLength>	8192	</messageLength></file>
+    <file>python.log<enabled>	true	</enabled><source>SCRIPT</source><source>UI</source><openMode>a</openMode><maxSizeKB>	2048	</maxSizeKB><trimToKB>	512	</trimToKB><showTime>	true	</showTime><disableBuffering>	false	</disableBuffering><messageLength>	8192	</messageLength></file>
+    <file>ui.log<enabled>	true	</enabled><source>UI</source><openMode>a</openMode><maxSizeKB>	2048	</maxSizeKB><trimToKB>	512	</trimToKB><showTime>	true	</showTime><disableBuffering>	false	</disableBuffering><messageLength>	8192	</messageLength></file>
   </logging>
   <webBrowser>
     <processExe>cef_browser_process</processExe>
