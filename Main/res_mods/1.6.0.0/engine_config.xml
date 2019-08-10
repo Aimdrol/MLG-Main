@@ -182,8 +182,15 @@
         <lowEnginePool>	40	</lowEnginePool>
         <streamingPool>	8	</streamingPool>
         <IOPoolSize>	16	</IOPoolSize>
-        <IOGranularity>	64	</IOGranularity>
+        <IOGranularity>	24	</IOGranularity>
       </memoryManager>
+      <memoryManager_64bit>
+        <defaultPool>	92	</defaultPool>
+        <lowEnginePool>	40	</lowEnginePool>
+        <streamingPool>	8	</streamingPool>
+        <IOPoolSize>	16	</IOPoolSize>
+        <IOGranularity>	64	</IOGranularity>
+      </memoryManager_64bit>
       <soundRender>
         <use_config>	false	</use_config>
         <HDR_lower_threshold>	-40	</HDR_lower_threshold>
@@ -196,7 +203,7 @@
         <project>
           <name>voiceover.bnk</name>
         </project>
-		<project>
+        <project>
           <name>MLG.bnk</name>
         </project>
       </voice_soundbanks>
@@ -299,6 +306,9 @@
         <project>
           <name>researches.bnk</name>
         </project>
+        <project>
+          <name>ev_wot_fest_token_hangar.bnk</name>
+        </project>
       </SFX_soundbanks_hangar>
       <SFX_soundbanks_login>
         <project>
@@ -369,6 +379,9 @@
         <project>
           <name>wheel_vehicle_GUI.bnk</name>
         </project>
+        <project>
+          <name>ev_wot_fest_token_arena.bnk</name>
+        </project>
       </SFX_soundbanks_arena>
       <SFX_soundbanks_editor>
         <project>
@@ -387,12 +400,19 @@
     </WWISE_adv_profile>
     <WWISE_low_profile>
       <memoryManager>
-        <defaultPool>	8	</defaultPool>
-        <lowEnginePool>	6	</lowEnginePool>
-        <streamingPool>	2	</streamingPool>
-        <IOPoolSize>	4	</IOPoolSize>
-        <IOGranularity>	16	</IOGranularity>
+        <defaultPool>	32	</defaultPool>
+        <lowEnginePool>	24	</lowEnginePool>
+        <streamingPool>	8	</streamingPool>
+        <IOPoolSize>	16	</IOPoolSize>
+        <IOGranularity>	64	</IOGranularity>
       </memoryManager>
+      <memoryManager_64bit>
+        <defaultPool>	92	</defaultPool>
+        <lowEnginePool>	40	</lowEnginePool>
+        <streamingPool>	8	</streamingPool>
+        <IOPoolSize>	16	</IOPoolSize>
+        <IOGranularity>	64	</IOGranularity>
+      </memoryManager_64bit>
       <soundRender>
         <use_config>	true	</use_config>
         <HDR_lower_threshold>	-40	</HDR_lower_threshold>
@@ -404,6 +424,9 @@
       <voice_soundbanks>
         <project>
           <name>voiceover.bnk</name>
+        </project>
+        <project>
+          <name>MLG.bnk</name>
         </project>
       </voice_soundbanks>
       <SFX_soundbanks_loadonce>
