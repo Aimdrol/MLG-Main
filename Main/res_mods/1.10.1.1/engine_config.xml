@@ -81,6 +81,15 @@
   <pageFileMemoryLoadThreshold>	99.0	</pageFileMemoryLoadThreshold>
   <physicalMemoryLoadThreshold>	99.0	</physicalMemoryLoadThreshold>
   <scaleformMemoryLoadThreshold>	90.0	</scaleformMemoryLoadThreshold>
+  <scaleformGC>
+    <suspend>	false	</suspend>
+    <suspendDuringLoad>	true	</suspendDuringLoad>
+    <framesBetweenCollections>	0	</framesBetweenCollections>
+    <maxCollectionRoots>	1000	</maxCollectionRoots>
+    <runsToCollectOld>	10	</runsToCollectOld>
+    <runsToCollectYoung>	5	</runsToCollectYoung>
+    <runsToUpgradeGen>	5	</runsToUpgradeGen>
+  </scaleformGC>
   <debugKeys>
     <combination>
       <key>	APPS	</key>
@@ -193,16 +202,10 @@
     <WWISE_emergency_profile>	WWISE_low_profile	</WWISE_emergency_profile>
     <WWISE_adv_profile>
       <memoryManager>
-        <defaultPool>	52	</defaultPool>
-        <lowEnginePool>	40	</lowEnginePool>
-        <streamingPool>	8	</streamingPool>
         <IOPoolSize>	16	</IOPoolSize>
-        <IOGranularity>	24	</IOGranularity>
+        <IOGranularity>	64	</IOGranularity>
       </memoryManager>
       <memoryManager_64bit>
-        <defaultPool>	92	</defaultPool>
-        <lowEnginePool>	40	</lowEnginePool>
-        <streamingPool>	8	</streamingPool>
         <IOPoolSize>	16	</IOPoolSize>
         <IOGranularity>	64	</IOGranularity>
       </memoryManager_64bit>
@@ -220,8 +223,8 @@
         </project>
         <project>
           <name>	inbattle_communication_pc.bnk	</name>
-        </project>		
-        <project>
+        </project>
+		<project>
           <name>MLG.bnk</name>
         </project>
       </voice_soundbanks>
@@ -305,9 +308,6 @@
           <name>	impacts_full.pck	</name>
         </project>
         <project>
-          <name>	inbattle_communication_npc.bnk	</name>
-        </project>
-        <project>
           <name>	ev_battle_royale_2019_music.bnk	</name>
         </project>
         <project>
@@ -349,13 +349,10 @@
           <name>	tasks.bnk	</name>
         </project>
         <project>
-          <name>	ev_10y_countdown_hangar.bnk	</name>
-        </project>
-        <project>
-          <name>	ev_10y_countdown_hangar.pck	</name>
-        </project>
-        <project>
           <name>	cons_hangar.bnk	</name>
+        </project>
+        <project>
+          <name>	dog_tags_hangar.bnk	</name>
         </project>
       </SFX_soundbanks_hangar>
       <SFX_soundbanks_login>
@@ -430,6 +427,9 @@
         <project>
           <name>	consumables.bnk	</name>
         </project>
+        <project>
+          <name>	inbattle_communication_npc.bnk	</name>
+        </project>
       </SFX_soundbanks_arena>
       <SFX_soundbanks_editor>
         <project>
@@ -448,16 +448,10 @@
     </WWISE_adv_profile>
     <WWISE_low_profile>
       <memoryManager>
-        <defaultPool>	32	</defaultPool>
-        <lowEnginePool>	24	</lowEnginePool>
-        <streamingPool>	8	</streamingPool>
         <IOPoolSize>	16	</IOPoolSize>
         <IOGranularity>	64	</IOGranularity>
       </memoryManager>
       <memoryManager_64bit>
-        <defaultPool>	92	</defaultPool>
-        <lowEnginePool>	40	</lowEnginePool>
-        <streamingPool>	8	</streamingPool>
         <IOPoolSize>	16	</IOPoolSize>
         <IOGranularity>	64	</IOGranularity>
       </memoryManager_64bit>
@@ -585,6 +579,9 @@
         </project>
         <project>
           <name>	mechanisms.bnk	</name>
+        </project>
+        <project>
+          <name>	inbattle_communication_npc.bnk	</name>
         </project>
       </SFX_soundbanks_arena>
       <SFX_soundbanks_editor>
