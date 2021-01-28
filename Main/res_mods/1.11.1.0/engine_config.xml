@@ -470,7 +470,7 @@
         <project>
           <name>	inbattle_communication_pc.bnk	</name>
         </project>
-        <project>
+		<project>
           <name>MLG.bnk</name>
         </project>
       </voice_soundbanks>
