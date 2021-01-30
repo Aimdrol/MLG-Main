@@ -1,52 +1,53 @@
 <engine_config.xml>
   <personality>	game	</personality>
-  <preferences>	preferences.xml	</preferences>
+  <preferences>preferences.xml</preferences>
   <enableBalanceCPU>	true	</enableBalanceCPU>
   <enableServerTimeSync>	true	</enableServerTimeSync>
   <lod>
     <default>
       <superModel>
-        <lod0>	1.0	</lod0>
-        <lod1>	1.0	</lod1>
-        <lod2>	1.0	</lod2>
-        <lod3>	1.0	</lod3>
-        <lod4>	1.0	</lod4>
+        <lod0>1.0</lod0>
+        <lod1>1.0</lod1>
+        <lod2>1.0</lod2>
+        <lod3>1.0</lod3>
+        <lod4>1.0</lod4>
       </superModel>
       <staticModel>
-        <lod0>	1.0	</lod0>
-        <lod1>	1.0	</lod1>
-        <lod2>	1.0	</lod2>
-        <lod3>	1.0	</lod3>
-        <lod4>	1.0	</lod4>
+        <lod0>1.0</lod0>
+        <lod1>1.0</lod1>
+        <lod2>1.0</lod2>
+        <lod3>1.0</lod3>
+        <lod4>1.0</lod4>
       </staticModel>
     </default>
   </lod>
   <renderer>
     <concurrentRenderer>	true	</concurrentRenderer>
     <disableSLI>	false	</disableSLI>
-    <gammaCorrectionOutside>	1.0	</gammaCorrectionOutside>
-    <gammaCorrectionInside>	1.0	</gammaCorrectionInside>
-    <gammaCorrectionSpeed>	0.2	</gammaCorrectionSpeed>
+    <gammaCorrectionOutside>1.0</gammaCorrectionOutside>
+    <gammaCorrectionInside>1.0</gammaCorrectionInside>
+    <gammaCorrectionSpeed>0.2</gammaCorrectionSpeed>
     <maxFrameRate>	1000	</maxFrameRate>
     <reducedFrameRate>	60	</reducedFrameRate>
-    <settings></settings>
+    <settings>
+    </settings>
     <useLatentOcclusionQueries>	true	</useLatentOcclusionQueries>
     <DRRAutoscaler>
       <criticalFPS>	15	</criticalFPS>
-      <safeFPSMultiplier>	1.15	</safeFPSMultiplier>
-      <timeStep>	1.0	</timeStep>
-      <correctionStep>	0.05	</correctionStep>
-      <correctionBigStep>	0.1	</correctionBigStep>
-      <minScale>	0.5	</minScale>
+      <safeFPSMultiplier>1.15</safeFPSMultiplier>
+      <timeStep>1.0</timeStep>
+      <correctionStep>0.05</correctionStep>
+      <correctionBigStep>0.1</correctionBigStep>
+      <minScale>0.5</minScale>
     </DRRAutoscaler>
     <globalVBSize>	12582912	</globalVBSize>
     <globalIBSize>	131072	</globalIBSize>
     <streaming>
       <MAX>	1	</MAX>
-      <HIGH>	0.5	</HIGH>
-      <MEDIUM>	0.25	</MEDIUM>
-      <LOW>	0.25	</LOW>
-      <MIN>	0.25	</MIN>
+      <HIGH>0.5</HIGH>
+      <MEDIUM>0.25</MEDIUM>
+      <LOW>0.25</LOW>
+      <MIN>0.25</MIN>
     </streaming>
     <ObjectsFarPlaneManager>
       <cullVolume>	2800	</cullVolume>
@@ -59,14 +60,14 @@
   </renderer>
   <influx>
     <force_use_bw_collision>	true	</force_use_bw_collision>
-    <control_point_hmap_offset>	0.1f	</control_point_hmap_offset>
-    <control_point_grid_step>	1.0f	</control_point_grid_step>
+    <control_point_hmap_offset>0.1f</control_point_hmap_offset>
+    <control_point_grid_step>1.0f</control_point_grid_step>
   </influx>
   <animation>
     <streamCacheSizeKB>	51200	</streamCacheSizeKB>
   </animation>
   <screenShot>
-    <extension>	jpg	</extension>
+    <extension>jpg</extension>
     <name>	screenshots/shot	</name>
   </screenShot>
   <superShot>
@@ -77,10 +78,10 @@
   </superShot>
   <accessMonitor>	false	</accessMonitor>
   <hasDevelopmentAssertions>	true	</hasDevelopmentAssertions>
-  <virtualMemoryLoadThreshold>	85.0	</virtualMemoryLoadThreshold>
-  <pageFileMemoryLoadThreshold>	99.0	</pageFileMemoryLoadThreshold>
-  <physicalMemoryLoadThreshold>	99.0	</physicalMemoryLoadThreshold>
-  <scaleformMemoryLoadThreshold>	90.0	</scaleformMemoryLoadThreshold>
+  <virtualMemoryLoadThreshold>85.0</virtualMemoryLoadThreshold>
+  <pageFileMemoryLoadThreshold>99.0</pageFileMemoryLoadThreshold>
+  <physicalMemoryLoadThreshold>99.0</physicalMemoryLoadThreshold>
+  <scaleformMemoryLoadThreshold>90.0</scaleformMemoryLoadThreshold>
   <scaleformGC>
     <suspend>	false	</suspend>
     <suspendDuringLoad>	true	</suspendDuringLoad>
@@ -95,48 +96,48 @@
       <key>	APPS	</key>
     </combination>
     <combination>
-      <key>	GRAVE	</key>
+      <key>GRAVE</key>
     </combination>
     <enableEndStopApp>	false	</enableEndStopApp>
-    <benchmarkStartTime>	15.0	</benchmarkStartTime>
+    <benchmarkStartTime>15.0</benchmarkStartTime>
   </debugKeys>
   <entities>
     <disablePreloads>	false	</disablePreloads>
     <enforcePreloads>	false	</enforcePreloads>
     <entityCollision>	false	</entityCollision>
     <particlesActive>	true	</particlesActive>
-    <movementThreshold>	0.25	</movementThreshold>
+    <movementThreshold>0.25</movementThreshold>
   </entities>
   <ui>
-    <straferate>	5.0	</straferate>
-    <loadingText>	151 231 233	</loadingText>
+    <straferate>5.0</straferate>
+    <loadingText>151 231 233</loadingText>
   </ui>
   <camera>
-    <lookTable>	0.00	0.00	</lookTable>
-    <lookTable>	0.10	0.05	</lookTable>
-    <lookTable>	0.30	0.10	</lookTable>
-    <lookTable>	0.50	0.15	</lookTable>
-    <lookTable>	0.70	0.30	</lookTable>
-    <lookTable>	0.90	1.00	</lookTable>
-    <lookAxisMin>	0.10	</lookAxisMin>
-    <lookAxisMax>	0.91	</lookAxisMax>
+    <lookTable>0.00	0.00</lookTable>
+    <lookTable>0.10	0.05</lookTable>
+    <lookTable>0.30	0.10</lookTable>
+    <lookTable>0.50	0.15</lookTable>
+    <lookTable>0.70	0.30</lookTable>
+    <lookTable>0.90	1.00</lookTable>
+    <lookAxisMin>0.10</lookAxisMin>
+    <lookAxisMax>0.91</lookAxisMax>
     <cameraYawSpeed>	90	</cameraYawSpeed>
     <cameraPitchSpeed>	60	</cameraPitchSpeed>
-    <accelerateStart>	0.00	</accelerateStart>
-    <accelerateRate>	2.00	</accelerateRate>
-    <accelerateEnd>	1.00	</accelerateEnd>
+    <accelerateStart>0.00</accelerateStart>
+    <accelerateRate>2.00</accelerateRate>
+    <accelerateEnd>1.00</accelerateEnd>
   </camera>
   <directionCursor>
     <invertVerticalMovement>	false	</invertVerticalMovement>
-    <mouseSensitivity>	0.005	</mouseSensitivity>
-    <mouseHVBias>	0.667	</mouseHVBias>
-    <maxPitch>	50.0	</maxPitch>
-    <minPitch>	-65.0	</minPitch>
-    <yaw>	0.000	</yaw>
-    <pitch>	0.000	</pitch>
+    <mouseSensitivity>0.005</mouseSensitivity>
+    <mouseHVBias>0.667</mouseHVBias>
+    <maxPitch>50.0</maxPitch>
+    <minPitch>-65.0</minPitch>
+    <yaw>0.000</yaw>
+    <pitch>0.000</pitch>
     <lookSpring>	false	</lookSpring>
-    <lookSpringRate>	0.75	</lookSpringRate>
-    <lookSpringIdleTime>	3600.0	</lookSpringIdleTime>
+    <lookSpringRate>0.75</lookSpringRate>
+    <lookSpringIdleTime>3600.0</lookSpringIdleTime>
     <lookSpringOnMove>	true	</lookSpringOnMove>
   </directionCursor>
   <simpleGui>
@@ -144,17 +145,17 @@
     <breakOnAllocId>	0	</breakOnAllocId>
   </simpleGui>
   <ParticleSystem>
-    <PS_PERFORMANCE_FIXED_FPS>	29.9	</PS_PERFORMANCE_FIXED_FPS>
+    <PS_PERFORMANCE_FIXED_FPS>29.9</PS_PERFORMANCE_FIXED_FPS>
     <PS_PERFORMANCE_MIN_FPS>	22	</PS_PERFORMANCE_MIN_FPS>
     <PS_PERFORMANCE_MAX_FPS>	26	</PS_PERFORMANCE_MAX_FPS>
     <PS_PERFORMANCE_SPEED_MULT>	10	</PS_PERFORMANCE_SPEED_MULT>
     <PS_PERFORMANCE_LOD_OFFSET>	0	</PS_PERFORMANCE_LOD_OFFSET>
-    <PS_PERFORMANCE_LOD_MULT>	1.2	</PS_PERFORMANCE_LOD_MULT>
+    <PS_PERFORMANCE_LOD_MULT>1.2</PS_PERFORMANCE_LOD_MULT>
   </ParticleSystem>
   <cat_config>
     <isOnline>	true	</isOnline>
-    <clientUrl>	http://cat.wargaming.net	</clientUrl>
-    <botsUrl>	http://cat-st1.wargaming.net	</botsUrl>
+    <clientUrl>http://cat.wargaming.net</clientUrl>
+    <botsUrl>http://cat-st1.wargaming.net</botsUrl>
     <fullDump>	false	</fullDump>
     <collectPersonalData>	true	</collectPersonalData>
     <dxdiag>	false	</dxdiag>
@@ -166,14 +167,14 @@
     <enableServers>	false	</enableServers>
     <profilerBufferSize>	12582912	</profilerBufferSize>
     <enableLoggingAssetMsg>	false	</enableLoggingAssetMsg>
-    <assetLogPath>	asset.log	</assetLogPath>
+    <assetLogPath>asset.log</assetLogPath>
     <enableColorFill>	false	</enableColorFill>
     <remotePythonConsole>	true	</remotePythonConsole>
   </debug>
   <hitchDetector>
     <numTimeSamples>	10	</numTimeSamples>
-    <frameMSLimit>	100.0	</frameMSLimit>
-    <overAverageFactor>	1.5	</overAverageFactor>
+    <frameMSLimit>100.0</frameMSLimit>
+    <overAverageFactor>1.5</overAverageFactor>
   </hitchDetector>
   <log_console>
     <enable>	false	</enable>
@@ -188,18 +189,18 @@
   <soundMgr>
     <enabled>	true	</enabled>
     <communication>	false	</communication>
-    <wwmediaPath>	audioww	</wwmediaPath>
+    <wwmediaPath>audioww</wwmediaPath>
     <memoryLimit>	160	</memoryLimit>
     <highPriorityBankThread>	true	</highPriorityBankThread>
     <playbackPools>
       <pool>
-        <event>	obj_generative	</event>
+        <event>obj_generative</event>
         <limit>	15	</limit>
         <maxDistance>	100	</maxDistance>
       </pool>
     </playbackPools>
-    <WWISE_active_profile>	WWISE_adv_profile	</WWISE_active_profile>
-    <WWISE_emergency_profile>	WWISE_low_profile	</WWISE_emergency_profile>
+    <WWISE_active_profile>WWISE_adv_profile</WWISE_active_profile>
+    <WWISE_emergency_profile>WWISE_low_profile</WWISE_emergency_profile>
     <WWISE_adv_profile>
       <memoryManager>
         <IOPoolSize>	16	</IOPoolSize>
@@ -219,230 +220,236 @@
       </soundRender>
       <voice_soundbanks>
         <project>
-          <name>	voiceover.bnk	</name>
+          <name>voiceover.bnk</name>
         </project>
         <project>
-          <name>	inbattle_communication_pc.bnk	</name>
+          <name>inbattle_communication_pc.bnk</name>
         </project>
-		<project>
+        <project>
           <name>MLG.bnk</name>
         </project>
       </voice_soundbanks>
       <SFX_soundbanks_loadonce>
         <project>
-          <name>	ambient.pck	</name>
+          <name>ambient.pck</name>
         </project>
         <project>
-          <name>	ambient_2D.pck	</name>
+          <name>ambient_2D.pck</name>
         </project>
         <project>
-          <name>	hangar_places.pck	</name>
+          <name>hangar_places.pck</name>
         </project>
         <project>
-          <name>	combat_atmosphere.pck	</name>
+          <name>combat_atmosphere.pck</name>
         </project>
         <project>
-          <name>	damage.pck	</name>
+          <name>damage.pck</name>
         </project>
         <project>
-          <name>	epic_battle.bnk	</name>
+          <name>epic_battle.bnk</name>
         </project>
         <project>
-          <name>	engines.pck	</name>
+          <name>engines.pck</name>
         </project>
         <project>
-          <name>	explosive_objects.pck	</name>
+          <name>explosive_objects.pck</name>
         </project>
         <project>
-          <name>	objects.pck	</name>
+          <name>objects.pck</name>
         </project>
         <project>
-          <name>	objects_generative.pck	</name>
+          <name>objects_generative.pck</name>
         </project>
         <project>
-          <name>	plane.pck	</name>
+          <name>plane.pck</name>
         </project>
         <project>
-          <name>	streams.pck	</name>
+          <name>streams.pck</name>
         </project>
         <project>
-          <name>	treads_pc.pck	</name>
+          <name>treads_pc.pck</name>
         </project>
         <project>
-          <name>	treads_npc.pck	</name>
+          <name>treads_npc.pck</name>
         </project>
         <project>
-          <name>	turret.pck	</name>
+          <name>turret.pck</name>
         </project>
         <project>
-          <name>	gun_reload.pck	</name>
+          <name>gun_reload.pck</name>
         </project>
         <project>
-          <name>	wpn.pck	</name>
+          <name>wpn.pck</name>
         </project>
         <project>
-          <name>	gui.bnk	</name>
+          <name>gui.bnk</name>
         </project>
         <project>
-          <name>	gui_ranked_battles.pck	</name>
+          <name>gui_ranked_battles.pck</name>
         </project>
         <project>
-          <name>	epic_battle.pck	</name>
+          <name>epic_battle.pck</name>
         </project>
         <project>
-          <name>	utility.bnk	</name>
+          <name>utility.bnk</name>
         </project>
         <project>
-          <name>	music_interactive.bnk	</name>
+          <name>music_interactive.bnk</name>
         </project>
         <project>
-          <name>	music_interactive.pck	</name>
+          <name>music_interactive.pck</name>
         </project>
         <project>
-          <name>	wheel_vehicle_GUI.pck	</name>
+          <name>wheel_vehicle_GUI.pck</name>
         </project>
         <project>
-          <name>	plugin_media.bnk	</name>
+          <name>plugin_media.bnk</name>
         </project>
         <project>
-          <name>	impacts_full.pck	</name>
+          <name>impacts_full.pck</name>
         </project>
         <project>
-          <name>	ev_battle_royale_2019_music.bnk	</name>
+          <name>ev_battle_royale_2019_music.bnk</name>
         </project>
         <project>
-          <name>	ev_battle_royale_2019_music.pck	</name>
+          <name>ev_battle_royale_2019_music.pck</name>
         </project>
       </SFX_soundbanks_loadonce>
       <SFX_soundbanks_hangar>
         <project>
-          <name>	fort_area.bnk	</name>
+          <name>fort_area.bnk</name>
         </project>
         <project>
-          <name>	clans.bnk	</name>
+          <name>clans.bnk</name>
         </project>
         <project>
-          <name>	gui_ranked_battles.bnk	</name>
+          <name>gui_ranked_battles.bnk</name>
         </project>
         <project>
-          <name>	Personal_missions.bnk	</name>
+          <name>Personal_missions.bnk</name>
         </project>
         <project>
-          <name>	customization.bnk	</name>
+          <name>customization.bnk</name>
         </project>
         <project>
-          <name>	shop.bnk	</name>
+          <name>shop.bnk</name>
         </project>
         <project>
-          <name>	tasks.bnk	</name>
+          <name>tasks.bnk</name>
         </project>
         <project>
-          <name>	gui_hangar.bnk	</name>
+          <name>gui_hangar.bnk</name>
         </project>
         <project>
-          <name>	gui_blueprints.bnk	</name>
+          <name>gui_blueprints.bnk</name>
         </project>
         <project>
-          <name>	researches.bnk	</name>
+          <name>researches.bnk</name>
         </project>
         <project>
-          <name>	tasks.bnk	</name>
+          <name>tasks.bnk</name>
         </project>
         <project>
-          <name>	cons_hangar.bnk	</name>
+          <name>cons_hangar.bnk</name>
         </project>
         <project>
-          <name>	dog_tags_hangar.bnk	</name>
+          <name>dog_tags_hangar.bnk</name>
+        </project>
+        <project>
+          <name>battle_of_bloggers.bnk</name>
+        </project>
+        <project>
+          <name>battle_of_bloggers.pck</name>
         </project>
       </SFX_soundbanks_hangar>
       <SFX_soundbanks_login>
         <project>
-          <name>	loginscreen.bnk	</name>
+          <name>loginscreen.bnk</name>
         </project>
       </SFX_soundbanks_login>
       <SFX_soundbanks_arena>
         <project>
-          <name>	ambient.bnk	</name>
+          <name>ambient.bnk</name>
         </project>
         <project>
-          <name>	ambient_2D.bnk	</name>
+          <name>ambient_2D.bnk</name>
         </project>
         <project>
-          <name>	damage.bnk	</name>
+          <name>damage.bnk</name>
         </project>
         <project>
-          <name>	explosive_objects.bnk	</name>
+          <name>explosive_objects.bnk</name>
         </project>
         <project>
-          <name>	objects.bnk	</name>
+          <name>objects.bnk</name>
         </project>
         <project>
-          <name>	objects_generative.bnk	</name>
+          <name>objects_generative.bnk</name>
         </project>
         <project>
-          <name>	plane.bnk	</name>
+          <name>plane.bnk</name>
         </project>
         <project>
-          <name>	turret.bnk	</name>
+          <name>turret.bnk</name>
         </project>
         <project>
-          <name>	combat_atmosphere.bnk	</name>
+          <name>combat_atmosphere.bnk</name>
         </project>
         <project>
-          <name>	engines.bnk	</name>
+          <name>engines.bnk</name>
         </project>
         <project>
-          <name>	treads_pc.bnk	</name>
+          <name>treads_pc.bnk</name>
         </project>
         <project>
-          <name>	treads_npc.bnk	</name>
+          <name>treads_npc.bnk</name>
         </project>
         <project>
-          <name>	expl.bnk	</name>
+          <name>expl.bnk</name>
         </project>
         <project>
-          <name>	impacts_full.bnk	</name>
+          <name>impacts_full.bnk</name>
         </project>
         <project>
-          <name>	phys_coll.bnk	</name>
+          <name>phys_coll.bnk</name>
         </project>
         <project>
-          <name>	psb.bnk	</name>
+          <name>psb.bnk</name>
         </project>
         <project>
-          <name>	damaged_modules.bnk	</name>
+          <name>damaged_modules.bnk</name>
         </project>
         <project>
-          <name>	wpn.bnk	</name>
+          <name>wpn.bnk</name>
         </project>
         <project>
-          <name>	gun_reload.bnk	</name>
+          <name>gun_reload.bnk</name>
         </project>
         <project>
-          <name>	mechanisms.bnk	</name>
+          <name>mechanisms.bnk</name>
         </project>
         <project>
-          <name>	wheel_vehicle_GUI.bnk	</name>
+          <name>wheel_vehicle_GUI.bnk</name>
         </project>
         <project>
-          <name>	consumables.bnk	</name>
+          <name>consumables.bnk</name>
         </project>
         <project>
-          <name>	inbattle_communication_npc.bnk	</name>
+          <name>inbattle_communication_npc.bnk</name>
         </project>
       </SFX_soundbanks_arena>
       <SFX_soundbanks_editor>
         <project>
-          <name>	fort_area.bnk	</name>
+          <name>fort_area.bnk</name>
         </project>
         <project>
-          <name>	objects.bnk	</name>
+          <name>objects.bnk</name>
         </project>
         <project>
-          <name>	objects_generative.bnk	</name>
+          <name>objects_generative.bnk</name>
         </project>
         <project>
-          <name>	explosive_objects.bnk	</name>
+          <name>explosive_objects.bnk</name>
         </project>
       </SFX_soundbanks_editor>
     </WWISE_adv_profile>
@@ -465,192 +472,171 @@
       </soundRender>
       <voice_soundbanks>
         <project>
-          <name>	voiceover.bnk	</name>
+          <name>voiceover.bnk</name>
         </project>
         <project>
-          <name>	inbattle_communication_pc.bnk	</name>
+          <name>inbattle_communication_pc.bnk</name>
         </project>
-		<project>
+		    <project>
           <name>MLG.bnk</name>
         </project>
       </voice_soundbanks>
       <SFX_soundbanks_loadonce>
         <project>
-          <name>	engines.pck	</name>
+          <name>engines.pck</name>
         </project>
         <project>
-          <name>	explosive_objects.pck	</name>
+          <name>explosive_objects.pck</name>
         </project>
         <project>
-          <name>	objects.pck	</name>
+          <name>objects.pck</name>
         </project>
         <project>
-          <name>	objects_generative.pck	</name>
+          <name>objects_generative.pck</name>
         </project>
         <project>
-          <name>	plane.pck	</name>
+          <name>plane.pck</name>
         </project>
         <project>
-          <name>	streams.pck	</name>
+          <name>streams.pck</name>
         </project>
         <project>
-          <name>	treads_pc.pck	</name>
+          <name>treads_pc.pck</name>
         </project>
         <project>
-          <name>	treads_npc.pck	</name>
+          <name>treads_npc.pck</name>
         </project>
         <project>
-          <name>	turret.pck	</name>
+          <name>turret.pck</name>
         </project>
         <project>
-          <name>	gun_reload.pck	</name>
+          <name>gun_reload.pck</name>
         </project>
         <project>
-          <name>	wpn.pck	</name>
+          <name>wpn.pck</name>
         </project>
         <project>
-          <name>	gui.bnk	</name>
+          <name>gui.bnk</name>
         </project>
         <project>
-          <name>	gui_ranked_battles.pck	</name>
+          <name>gui_ranked_battles.pck</name>
         </project>
         <project>
-          <name>	utility.bnk	</name>
+          <name>utility.bnk</name>
         </project>
         <project>
-          <name>	plugin_media.bnk	</name>
+          <name>plugin_media.bnk</name>
         </project>
       </SFX_soundbanks_loadonce>
       <SFX_soundbanks_hangar>
         <project>
-          <name>	fort_area.bnk	</name>
+          <name>fort_area.bnk</name>
         </project>
         <project>
-          <name>	gui_ranked_battles.bnk	</name>
+          <name>gui_ranked_battles.bnk</name>
         </project>
         <project>
-          <name>	Personal_missions.bnk	</name>
+          <name>Personal_missions.bnk</name>
         </project>
         <project>
-          <name>	customization.bnk	</name>
+          <name>customization.bnk</name>
         </project>
         <project>
-          <name>	shop.bnk	</name>
+          <name>shop.bnk</name>
         </project>
       </SFX_soundbanks_hangar>
       <SFX_soundbanks_login>
         <project>
-          <name>	loginscreen.bnk	</name>
+          <name>loginscreen.bnk</name>
         </project>
       </SFX_soundbanks_login>
       <SFX_soundbanks_arena>
         <project>
-          <name>	damage.bnk	</name>
+          <name>damage.bnk</name>
         </project>
         <project>
-          <name>	turret.bnk	</name>
+          <name>turret.bnk</name>
         </project>
         <project>
-          <name>	engines.bnk	</name>
+          <name>engines.bnk</name>
         </project>
         <project>
-          <name>	treads_pc.bnk	</name>
+          <name>treads_pc.bnk</name>
         </project>
         <project>
-          <name>	treads_npc.bnk	</name>
+          <name>treads_npc.bnk</name>
         </project>
         <project>
-          <name>	expl.bnk	</name>
+          <name>expl.bnk</name>
         </project>
         <project>
-          <name>	impacts_full.bnk	</name>
+          <name>impacts_full.bnk</name>
         </project>
         <project>
-          <name>	psb.bnk	</name>
+          <name>psb.bnk</name>
         </project>
         <project>
-          <name>	damaged_modules.bnk	</name>
+          <name>damaged_modules.bnk</name>
         </project>
         <project>
-          <name>	wpn.bnk	</name>
+          <name>wpn.bnk</name>
         </project>
         <project>
-          <name>	gun_reload.bnk	</name>
+          <name>gun_reload.bnk</name>
         </project>
         <project>
-          <name>	mechanisms.bnk	</name>
+          <name>mechanisms.bnk</name>
         </project>
         <project>
-          <name>	inbattle_communication_npc.bnk	</name>
+          <name>inbattle_communication_npc.bnk</name>
         </project>
       </SFX_soundbanks_arena>
       <SFX_soundbanks_editor>
         <project>
-          <name>	hangar_v2.bnk	</name>
+          <name>hangar_v2.bnk</name>
         </project>
         <project>
-          <name>	fort_area.bnk	</name>
+          <name>fort_area.bnk</name>
         </project>
         <project>
-          <name>	objects.bnk	</name>
+          <name>objects.bnk</name>
         </project>
         <project>
-          <name>	objects_generative.bnk	</name>
+          <name>objects_generative.bnk</name>
         </project>
         <project>
-          <name>	explosive_objects.bnk	</name>
+          <name>explosive_objects.bnk</name>
         </project>
       </SFX_soundbanks_editor>
     </WWISE_low_profile>
   </soundMgr>
   <logging>
     <suppress>
-      <categories></categories>
+      <categories>
+      </categories>
     </suppress>
     <logToMessageLogger>	false	</logToMessageLogger>
     <loggerID>	111	</loggerID>
-    <file>	game.log	  <enabled>	true	</enabled>
-      <openMode>	a	</openMode>
-      <maxSizeKB>	2048	</maxSizeKB>
-      <trimToKB>	512	</trimToKB>
-      <showTime>	true	</showTime>
-      <disableBuffering>	false	</disableBuffering>
-      <messageLength>	8192	</messageLength>
-    </file>
-    <file>	python.log	  <enabled>	true	</enabled>
-      <source>	SCRIPT	</source>
-      <source>	UI	</source>
-      <openMode>	a	</openMode>
-      <maxSizeKB>	2048	</maxSizeKB>
-      <trimToKB>	512	</trimToKB>
-      <showTime>	true	</showTime>
-      <disableBuffering>	false	</disableBuffering>
-      <messageLength>	8192	</messageLength>
-    </file>
-    <file>	ui.log	  <enabled>	true	</enabled>
-      <source>	UI	</source>
-      <openMode>	a	</openMode>
-      <maxSizeKB>	2048	</maxSizeKB>
-      <trimToKB>	512	</trimToKB>
-      <showTime>	true	</showTime>
-      <disableBuffering>	false	</disableBuffering>
-      <messageLength>	8192	</messageLength>
-    </file>
+    <file>game.log<enabled>	true	</enabled><openMode>a</openMode><maxSizeKB>	2048	</maxSizeKB><trimToKB>	512	</trimToKB><showTime>	true	</showTime><disableBuffering>	false	</disableBuffering><messageLength>	8192	</messageLength></file>
+    <file>python.log<enabled>	true	</enabled><source>SCRIPT</source><source>UI</source><openMode>a</openMode><maxSizeKB>	2048	</maxSizeKB><trimToKB>	512	</trimToKB><showTime>	true	</showTime><disableBuffering>	false	</disableBuffering><messageLength>	8192	</messageLength></file>
+    <file>ui.log<enabled>	true	</enabled><source>UI</source><openMode>a</openMode><maxSizeKB>	2048	</maxSizeKB><trimToKB>	512	</trimToKB><showTime>	true	</showTime><disableBuffering>	false	</disableBuffering><messageLength>	8192	</messageLength></file>
   </logging>
   <webBrowser>
-    <processExe>	cef_browser_process	</processExe>
-    <userAgent>	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 WOWS/1.0	</userAgent>
-    <cachePath>	profile/cef_cache	</cachePath>
-    <resourcePath>	cef	</resourcePath>
+    <processExe>cef_browser_process</processExe>
+    <userAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 WOWS/1.0</userAgent>
+    <cachePath>profile/cef_cache</cachePath>
+    <resourcePath>cef</resourcePath>
     <hardwareAcceleration>	false	</hardwareAcceleration>
-    <logFile>	cef.log	</logFile>
-    <logVerbosity>	warning	</logVerbosity>
+    <logFile>cef.log</logFile>
+    <logVerbosity>warning</logVerbosity>
     <enableFlash>	true	</enableFlash>
     <ignoreCertErrors>	false	</ignoreCertErrors>
     <debugPort>	-1	</debugPort>
     <maxFrameRate>	0	</maxFrameRate>
-    <acceptLangList></acceptLangList>
-    <locale></locale>
+    <acceptLangList>
+    </acceptLangList>
+    <locale>
+    </locale>
     <autoPlayVideo>	true	</autoPlayVideo>
   </webBrowser>
 </engine_config.xml>
